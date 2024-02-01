@@ -13,20 +13,51 @@
     href="script.js">
 <title>Kamohelo Filane Portfolio</title>
 </head>
-<nav>
-    <ul>
-        <li><a href="Home">Home</a></li>
-        <li><a href="About">About</a></li>
-        <li><a href="Projects">Projects</a></li>
-        <li><a href="Resume">Resume</a>
-        <li><a href="Contact">Contact</a>
-        </li>
-        </ul>
-</nav>
-<body>
+<div id = "header">
+    <div class="container">
+        <nav>
+            <img src="c:\Users\Kamohelo.Filane\Downloads\k.png"/>
+            <ul id = "sidemenu">
 
-<h1>Software Developer</h1>
-<p>My first paragraph. This is a test to link the github to vscode</p>
+            </ul>
+            <ul>
+                <li><a href="Home">Home</a></li>
+                <li><a href="About">About</a></li>
+                <li><a href="Projects">Projects</a></li>
+                <li><a href="Resume">Resume</a>
+                <li><a href="Contact">Contact</a>
+                </li>
+                <i class="fa-solid far -xmark" onclick="closemenu"></i>
+                </ul>
+                <i class="fa-solid far-bars" onclick="openmenu"></i>
+        </nav>
+        <div class="header-text"></div>
+        <p>FULLSTACK DEVELOPER</p>
+        <H1>Hi.I am Kamohelo</H1>
+    </div>
+
+</div>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="C:\Users\Kamohelo.Filane\OneDrive - Cape IT Initiative\Desktop\Kamohelo Portfolio\Pictures\code-3385504_1280.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p>I am a certified  Microsoft Technology Associate. I am well versed in multiple discipline of information technology systems,with special interest in design and development.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab"('skills')>Skills</p>
+                    <p class="tab-links active-link" onclick="opentab"('experience')>Experience</p>
+                    <p class="tab-links active-link" onclick="opentab"('education')>Education</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<body>
 
 </body>
 </html>
+
