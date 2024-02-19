@@ -1,32 +1,75 @@
 <!DOCTYPE html>
-<html lang ="en">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta
-    http-equiv="X-UA-Compatible"
-    content="IE=edge">
-    <meta name="viewport"
-    content="width=device-width,initial-scale=1.0">
-    <link rel="stylesheet"
-    href="style.css">
-    <link rel="stylesheet"
-    href="script.js">
-<title>Kamohelo Filane Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Kamohelo Filane Portfolio</title>
+
 </head>
-<nav>
-    <ul>
-        <li><a href="Home">Home</a></li>
-        <li><a href="About">About</a></li>
-        <li><a href="Projects">Projects</a></li>
-        <li><a href="Resume">Resume</a>
-        <li><a href="Contact">Contact</a>
-        </li>
-        </ul>
-</nav>
+<body>
+</head>
 <body>
 
-<h1>Software Developer</h1>
-<p>My first paragraph.</p>
+    <header>
+        <img src="C:\Users\kfila\OneDrive\Desktop\gitconnet\My-Portfolio\Kamohelo Portfolio\pictures\k.png" alt="Logo" class="logo">
+        <h1>Web Designer Portfolio</h1>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#work">My Work</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="C:\Users\kfila\OneDrive\Desktop\gitconnet\My-Portfolio\Kamohelo Portfolio\pictures\laptop-2443737_1280.jpg" alt="Kamohelo" width="200px" height="100px">
+        <p>
+            Welcome to my portfolio! I am a passionate web designer with a keen eye for detail and a love for creating beautiful and functional websites.
+            I am a certified  Microsoft Technology Associate. I am well versed in multiple discipline of information technology systems,with special interest in design and development.</p>
+                
+        </p>
+    </section>
+
+    <section id="work">
+        <h2>My Work</h2>
+
+        <div class="portfolio-item">
+            <img src="your_project_image_1.jpg" alt="Project 1">
+            <p>Project description goes here.</p>
+        </div>
+
+        <div class="portfolio-item">
+            <img src="your_project_image_2.jpg" alt="Project 2">
+            <p>Project description goes here.</p>
+        </div>
+
+        <!-- Add more portfolio items as needed -->
+
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+    
+            <label for="message">Message:</label><br><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+    
+            <button type="submit">Submit</button>
+        </form>
+        <p>You can reach me at: your.email@example.com</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Kamohelo Filane - Web Designer/FullStack Developer</p>
+    </footer>
 
 </body>
 </html>
